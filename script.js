@@ -62,9 +62,9 @@ const noBtn = document.getElementById('no-btn');
 const response = document.getElementById('response');
 
 yesBtn.addEventListener('click', () => {
-  response.textContent = "I LOVE YOU! You just made me the happiest person alive! ❤️";
+  response.textContent = "Yay! You just made me the happiest person! ❤️";
 });
 
 noBtn.addEventListener('click', () => {
-  response.textContent = "please, reconsider your decision...! 😢";
+  response.textContent = "Aww, I'll try again next year! 😢";
 });
